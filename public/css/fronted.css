@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 12px;
+    color: 000;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+header {
+    width: 1024px;
+    height: 60px;
+    background: #ff7300;
+}
+
+nav {
+    width: 1024px;
+    height: 60px;
+    background: #e66800;
+    overflow: hidden;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 40px;
+    color: blue;
+}
+
+main, article {
+    width: 944px;
+    background: #fff;
+    color: #2d2626;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+section h3, main h3, article h3 {
+    font-size: 20px;
+}
+
+section, main, article {
+    font-size: 16px;
+}
+
+footer {
+    background: #ff7300;
+    overflow: hidden;
+    width: 1024px;
+    height: 40px;
+}
+
+.pager {
+     float: right;
+     margin: 10px 0;
+}
+
+.pagination li {
+    float: left;
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0 3px;
+}
+
+.pagination a {
+    text-decoration: none;
+    display: inline;
+    color: #e66800;
+    background: white;
+    padding: 5px;
+    margin: 10px 2px;
+}
+
+.pagination a:hover {
+   
+    background: #e66800;
+    color: white;
+}
+
+section a {
+    text-decoration: none;
+    color: #6999cf;
+    
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border-bottom: 2px solid #bbbbbb;
+    width: 944px;
+    margin: 15px 0 0 0;
+}
+
+h3 {
+   color: #6999cf;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.photo {
+    float: left;
+}
+
+figure {
+    float: left;
+    padding: 0;
+    margin: 15px 15px 0 0;
+}
+
